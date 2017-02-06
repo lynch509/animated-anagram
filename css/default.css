@@ -1,0 +1,76 @@
+/* this is where all of your CSS styles go */
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+.p {
+	position:relative;
+	float: left;}
+
+.font {
+	float: left;
+	position: relative;
+	font-size: 8em;
+	color: #ffdb4d;
+}
+#lemon-container {
+	height: 500px;
+	width: 500px;
+	position: relative;
+	left: 25%;
+	top:50%;
+}
+
+@-webkit-keyframes l_move {
+	0% {top:-150px; left:0px;}
+	50% {top:-150px; left:175px;}
+	100%{top:0px; left:175px;}
+}
+
+
+#l {
+	position: relative;
+	-webkit-animation: l_move 3s;
+	-webkit-animation-fill-mode:forwards;
+	animation-delay:1s;
+}
+@-webkit-keyframes m_move {
+	0% {top:150px; right:0px;color:#ffdb4d;}
+	50% {top:150px; right:175px;}
+	100%{top:0px; right:175px; color:#e67300}
+}
+
+#m {
+	position: relative;
+	-webkit-animation:m_move 3s;
+	-webkit-animation-fill-mode:forwards;
+	animation-delay:2s;
+}
+
+@-webkit-keyframes e_move {
+	0% {top:0px;left:0px;color:#ffdb4d;}
+	50% {top:0px; left:25px;}
+	100%{top:0px;left:25px; color:#e67300}
+}
+#e {
+	position: relative;
+	-webkit-animation:e_move 3s;
+	-webkit-animation-fill-mode:forwards;
+	animation-delay:3s;
+
+}
+@-webkit-keyframes o_move {
+	0% {top:0px;color:#ffdb4d;}
+
+	100%{top:0px;color:#e67300}
+}
+
+#o {
+	position: relative;
+	-webkit-animation:e_move 3s;
+	-webkit-animation-fill-mode:forwards;
+	animation-delay:3s;
+}
+
+
+
+
